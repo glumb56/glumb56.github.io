@@ -4,7 +4,12 @@
 <title> EFBF HOME </title>
 </head>
 <body style="background-color:powderblue;">
-
+<nav>
+  <ul>
+    <li><a href="#">F=ma</a></li>
+    <li><a href="#">FBD</a></li>
+  </ul>
+</nav>
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 
