@@ -4,18 +4,6 @@
 <title> EFBF HOME </title>
 </head>
 
-border: 0px solid black;
-border-radius: 6px;
-background-image: -webkit-gradient(linear, center bottom, center top, from(white), to(black));
-background-image: -webkit-linear-gradient(77deg, white, black);
-background-image: -moz-linear-gradient(77deg, white, black);
-background-image: -o-linear-gradient(77deg, white, black);
-background-image: -ms-linear-gradient(77deg, white, black);
-background-image: linear-gradient(77deg, white, black);
--webkit-box-shadow: 0 1px 5px #81996d, inset 0 1px 0 white;
--moz-box-shadow: 0 1px 5px #81996d, inset 0 1px 0 white;
-box-shadow: 0 1px 5px #81996d, inset 0 1px 0 white;
-
 
 
 
