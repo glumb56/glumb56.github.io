@@ -7,8 +7,8 @@
 <img src  = "http://s.quickmeme.com/img/9f/9f451dc4688c0f400932668744dbba3b16b658aed4c16bb914b37792af027646.jpg" />
 <nav>
   <ul>
-    <li><a href="#">F=ma</a></li>
-    <li><a href="#">FBD</a></li>
+    <li><a href="fma.html">F=ma</a></li>
+    <li><a href="fbd.html">FBD</a></li>
   </ul>
 </nav>
 <h1>This is a heading</h1>
