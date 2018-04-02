@@ -4,7 +4,12 @@
 <title> EFBF HOME </title>
 </head>
 
-
+<style type=”text/css”>         <!-- css stuff -->
+h1, h2, h3, h4, h5, h6 {
+  color: #009900;
+  font-family: Georgia, sans-serif;
+}
+</style>
 
 
 <img src  = "http://s.quickmeme.com/img/9f/9f451dc4688c0f400932668744dbba3b16b658aed4c16bb914b37792af027646.jpg" />
