@@ -8,6 +8,27 @@
   
 <style>
   
+  
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+    function myFunction1(){
+       var y = document.getElementById("myDIV1");
+    if (y.style.display == "none")  {
+        y.style.display == "block";
+    }
+      else
+      {
+        y.style.display = "none";
+      }
+    }
+  
+  
   p.double {
   border-style: double;      
   padding: 20px;
@@ -149,6 +170,19 @@ body {
   <h1 align="center">Vector Addition, Four Vectors</h1>
   <div style="text-align: center;"><img HEIGHT="300" WIDTH="300" src="vectorimg9.jpg"></div>
   <p class="double"> Vector addition involves finding vector components, adding them and finding the polar form of the resultant.</p>
+  
+  
+  
+  <div style = "text-align:center"><h2>Practice</h2></div>                  <!-Beginning of practice problems->
+  <p class = "double">The components of a vector are as follows: <br> x-component: +3 <br> y-component: +4 <br> 
+  What is the magnitude and direction (from the +x direction) of the vector?</p>
+  <button onclick="myFunction()">Show Answer</button>
+
+<div id="myDIV" style="display:none">
+  <p class = "double">5m at 53.13 deg</p>
+</div>
+
+
   
   
 </body>
