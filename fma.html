@@ -71,7 +71,16 @@ p.double {
 </style>
 
 <body>
-  
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+  </script>
   
   <div class="header">
   <h1 style="font-size:57px" align="center">ΣF = M * A</h1>
@@ -97,19 +106,26 @@ p.double {
       of an object. Our present understanding is that there are four fundamental forces in the universe, the gravity force, 
       the nuclear weak force, the electromagnetic force, and the nuclear strong force in ascending order of strength. In mechanics, 
       forces are seen as the causes of linear motion, whereas the causes of rotational motion are called torques. The action of forces 
-      in causing motion is described by Newton's Laws under ordinary conditions, although there are notable exceptions.
+      in causing motion is described by <a href = "fbd.html">Newton's Laws</a> under ordinary conditions, although there are notable exceptions.
       <br></br>
   Forces are inherently vector quantities, requiring <a href = "vector.html">vector addition</a> to combine them.
 
       The SI unit for force is the Newton, which is defined by Newton = kg m/s^2 as may be seen from <a href = "fbd.html">Newton's second law</a>.</p>
-    <div style="text-align: center;"><img HEIGHT="300" WIDTH="500" src="f=ma_image1.gif"></div>
+    <div style="text-align: center;"><img HEIGHT="300" WIDTH="400" src="f=ma_image1.gif"></div>
   
   <div style = "text-align:center"><h1>Causes of Motion</h1></div>
   <p class = "double">The influences which cause changes in the motion of objects are forces and torque. The effects of forces on objects
     are described by <a href = "fbd.html">Newton's Laws</a>. A force is defined as any influence which tends to change the motion of an object.
   </p>
-  <div style="text-align: center;"><img HEIGHT="300" WIDTH="500" src="secondlaw.jpg"></div>
-  <p class = "double">The sum of forces on an object is equal to that object's mass multiplied by its acceleration. </p>
+  <div style="text-align: center;"><img HEIGHT="200" WIDTH="500" src="secondlaw.jpg"></div>
+  
+  <div style = "text-align:center"><h2>Practice</h2></div>
+  <p class = "double">What is the force required to move a 5,000 kg car with an acceleration of 4 m/s/s?</p>
+  <button onclick="myFunction()">Show Answer</button>
+
+<div id="myDIV">
+  20,000 N
+</div>
   </div>
   <div class="column side">
     <h2></h2>   <!-Right Whitespace->
