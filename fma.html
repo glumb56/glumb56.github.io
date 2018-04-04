@@ -80,6 +80,14 @@ p.double {
   <script>
     function myFunction() {
     var x = document.getElementById("myDIV");
+    var y = document.getElementById("myDIV1");
+    if (y.style.display == "none")  {
+        y.style.display == "block";
+    }
+      else
+      {
+        y.style.display = "none";
+      }
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -132,9 +140,11 @@ p.double {
 <div id="myDIV" style="display:none">
   <p class = "double">20,000 N</p>
 </div>
+  
+  
   <p class = "double">What is the acceleration of a 4,000 kg car pushed with a force of 12,000 N?</p>
    <button onclick="myFunction()">Show Answer</button>
-<div id="myDIV" style="display:none">
+<div id="myDIV1" style="display:none">
   <p class = "double">3 m/s/s</p>
 </div>
   
